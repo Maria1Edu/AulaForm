@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de contato</title>
+    <!-- Importação dos ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<!--CSS-->
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.social {
+    text-align: center;
+}
+
+.social a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social i {
+    font-size: 2em;
+}
+
+input[type="button"] {
+    display: block;
+    margin: 20px auto;
+    background-color: #2600ff;
+}</style>
+</head>
+
+<body>
+<div class="container"> <!-- Formulário -->
+    <h1>Formulário de contato</h1>
+    <form>
+        <label> Nome:</label>
+        <br>
+        <input type="text" name="nome" placeholder="Digite seu nome">
+        <br><br>
+        <label>Sobrenome: </label>
+        <br>
+        <input type="text" name="sobrenome" placeholder="Digite seu sobrenome">
+        <br><br>
+        <label>Telefone:</label>
+        <br>
+        <input type="text" name="telefone" placeholder="(51)99999-9999">
+        <br><br>
+        <label> E-mail:</label>
+        <br>
+        <input type="text" name="E-mail" placeholder="Digite seu e-mail">
+        <br><br>
+        <br><br><br>
+    </div>
+
+        
+        <div class="social">
+            <label>Links úteis:</label>
+            <br><br>
+            <!-- Link para github -->
+            <a href="https://github.com/Maria1Edu" target="_blank">
+                <i class="fa-brands fa-github fa-No Animation fa-2xl" style="color: #050005;"></i>
+            </a>
+
+            <!-- Link para linkedin -->
+            <a href="https://www.linkedin.com/in/maria-eduarda-alves-stefanes-38972b279/" target="_blank">
+                <i class="fa-brands fa-linkedin fa-No Animation fa-2xl" style="color: #2600ff;"></i>
+            </a>
+            <a href="http://127.0.0.1:5500/index2.html"><input type="button" value="Voltar"></a>
+        </div>
+
+
+    </form>
+</body>
+
+</html>
